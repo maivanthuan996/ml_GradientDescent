@@ -21,19 +21,52 @@
 ### Introduction
 In this study, practice training how to use Mini-Batch Descent to train models in the PyTorch framework.
 
-### Make some Data
 
+
+
+### Make some Data
+aaaaaa
 ### Create the Model and Cost Function (Total Loss)
 
+
+
+
+
+faaaaa
+
+
+
+
 ### Train the Model: Batch Gradient Descent
+ddddđd
+
 
 ### Train the Model: Stochastic Gradient Descent with Dataset DataLoader
 
+
+
+
+rrrr
 ### Train the Model: Mini Batch Gradient Decent: Batch size equals 5
 
+
+
+
+hhhhh
 ### Train the Model: Mini Batch Gradient Decent: Batch size equals 10
 
+
+
+
+mmmmm
 ### Examining-results
+mmmm
+
+
+
+
+
+
 
 ### Summary
 
