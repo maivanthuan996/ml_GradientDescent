@@ -68,12 +68,6 @@ path_to_save_plot = os.path.join("input", "viz")
 plot_data(X, Y, path_to_save_plot)
 ```
 
-<p align="center">
-  <a href="">
-    <img src="/input/viz/viz.png" width="620" alt=""/>
-  </a>
-</p>
-
 ### Train the Model: Stochastic Gradient Descent with Dataset DataLoader
 
 
