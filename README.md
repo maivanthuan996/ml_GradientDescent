@@ -70,10 +70,15 @@ plot_data(X, Y, path_to_save_plot)
 
 ### Train the Model: Stochastic Gradient Descent with Dataset DataLoader
 
+</br>
 
+$$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}\tag{1}$$
 
+$$a^{[1] (i)} = g(z^{[1] (i)})\tag{2}$$
 
-rrrr
+$$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2]}\tag{3}$$
+
+$$\hat{y}^{(i)} = a^{[2] (i)} = \sigma(z^{ [2] (i)})\tag{4}$$
 ### Train the Model: Mini Batch Gradient Decent: Batch size equals 5
 
 
