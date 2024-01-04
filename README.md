@@ -28,18 +28,51 @@ In this study, practice training how to use Mini-Batch Descent to train models i
 aaaaaa
 ### Create the Model and Cost Function (Total Loss)
 
+First of all, we simulate some data using datasets from sklearn.
 
+```python
+from utils_data import *
 
+N = 2000
+noise = 0.25
+# load and visualize data
+X, Y = load_data(N, noise)
 
+# visualize the data
+path_to_save_plot = os.path.join("input", "viz")
+plot_data(X, Y, path_to_save_plot)
+```
 
-faaaaa
-
+<p align="center">
+  <a href="">
+    <img src="/input/viz/viz.png" width="620" alt=""/>
+  </a>
+</p>
 
 
 
 ### Train the Model: Batch Gradient Descent
 ddddđd
+First of all, we simulate some data using datasets from sklearn.
 
+```python
+from utils_data import *
+
+N = 2000
+noise = 0.25
+# load and visualize data
+X, Y = load_data(N, noise)
+
+# visualize the data
+path_to_save_plot = os.path.join("input", "viz")
+plot_data(X, Y, path_to_save_plot)
+```
+
+<p align="center">
+  <a href="">
+    <img src="/input/viz/viz.png" width="620" alt=""/>
+  </a>
+</p>
 
 ### Train the Model: Stochastic Gradient Descent with Dataset DataLoader
 
